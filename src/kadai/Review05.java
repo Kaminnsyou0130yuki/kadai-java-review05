@@ -31,7 +31,7 @@ public class Review05 {
             pstmt = con.prepareStatement(sql);
 
 //            SQL実行
-            System.out.print("検索キーワードを入力してください:");
+            System.out.print("検索キーワードを入力してください > ");
             int input = KeyInNum();
 
             pstmt.setInt(1, input);
